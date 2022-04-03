@@ -12,13 +12,16 @@ The purpose of this project was to analyze real world Kickstarter data and help 
 
 In order to analyze outcomes by launch date, I first had to get a years column created. Converting a unix time stamp is something I hadn't done before - but I found it interesting! 
 
-![photo of Unix conversion] (Users\tbrec\DataAnalysis\Bootcamp\Homework_Repos\Week1_HW_Excel\01-Kickstarter\Resources\Unix_Conversion.png)
+![photo of Unix conversion] (https://github.com/tbrech4/Week1_HW_Excel/blob/main/01-Kickstarter/Resources/Unix_Conversion.png)
 
+Once a time column was created, it was pretty easy to get the Pivot table setup. I have a lot of prior Excel experience, so most of this module was review for me. 
 ### Analysis of Outcomes Based on Goals
+
+This analysis required long Countif formulas - most of the formulas required four different conditions to be met - it had to be higher than the lower range bound, lower than the upper range bound, a member of the "plays" subcateogry, and then whatever condition we were looking for (Successful, Failed, Canceled). 
 
 ### Challenges and Difficulties Encountered
 
-Most of the challenge for me came from getting the sumifs set up for the outcome by launch date analysis. It took a bit of work to get it setup, but I eventually got it. I also ran into some issues around edge cases and did not include an 'or equal to' operator in my formulas - so my data was off when I first created my summary graph. 
+Most of the challenge for me came from getting the Countifs set up for the outcome by launch date analysis. It took a bit of work to get it setup, but I eventually got it. I also ran into some issues around edge cases and did not include an 'or equal to' operator in my formulas - so my data was off when I first created my summary graph. Moving forward, I will make sure to check for edge cases when trying to categorize things by ranges. Including the "or equal to" is definitely important. 
 
 
 ## Results
