@@ -12,7 +12,7 @@ The purpose of this project was to analyze real world Kickstarter data and help 
 
 In order to analyze outcomes by launch date, I first had to get a years column created. Converting a unix time stamp is something I hadn't done before - but I found it interesting! 
 
-![alt text] (https://github.com/tbrech4/Week1_HW_Excel/blob/main/01-Kickstarter/Resources/Unix_Conversion.png)
+![photo of Unix conversion] (Users\tbrec\DataAnalysis\Bootcamp\Homework_Repos\Week1_HW_Excel\01-Kickstarter\Resources\Unix_Conversion.png)
 
 ### Analysis of Outcomes Based on Goals
 
